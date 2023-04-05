@@ -1,9 +1,9 @@
  // Load your images on page-load
  function preloader() {
     const imagesList = [
-       "../img/water.jpg",
-       "../img/wind.jpg",
-       "../img/sun.jpg"
+       "./img/water.jpg",
+       "./img/wind.jpg",
+       "./img/sun.jpg"
     ];
     const images = [];
     for (let i = 0; i < imagesList.length; i++) {
@@ -28,19 +28,19 @@ window.addEventListener("load", preloader);
 let content = {
     "page-1": {
         "heading": "Water",
-        "imgurl": "../img/water.jpg",
+        "imgurl": "./img/water.jpg",
         "imgalt":"This Image represents the hydraulic energy",
         "bodytext": "Webtwo ipsum whrrl zanga eskobo klout mog odeo, kippt zimbra zooomr scribd. Zillow zooomr cuil chegg, zappos disqus, reddit ideeli. Dopplr chartly napster jaiku, hulu rovio imvu, oovoo imeem. Jabber etsy wufoo, tivo. Chartly cloudera plaxo rovio, octopart boxbe, unigo chartly. Doostang zoodles ideeli lijit kippt twitter cuil tivo, yammer mog trulia xobni weebly. Whrrl zanga xobni sclipo, sococo. Weebly jabber scribd, empressr lijit.",
     },
     "page-2": {
         "heading": "Air",
-        "imgurl": "../img/wind.jpg",
+        "imgurl": "./img/wind.jpg",
         "imgalt":"This Image represents the eolic energy",
         "bodytext": "Webtwo ipsum hipmunk meebo hipmunk xobni voki lanyrd groupon, zoodles wesabe hulu dopplr. Joyent edmodo grockit orkut tivo, elgg koofers. Waze mzinga kazaa heekya, etsy glogster. Cuil babblely voki hulu joukuu eduvant imeem, twitter voxy oooooc cuil zapier. Rovio klout insala jumo, spotify zoosk. whrrl zanga eskobo klout mog odeo, kippt zimbra zooomr scribd. Zillow zooomr cuil chegg, zappos disqus, reddit ideeli.",
     },
     "page-3": {
         "heading": "Sun",
-        "imgurl": "../img/sun.jpg",
+        "imgurl": "./img/sun.jpg",
         "imgalt":"This Image represents the solar energy",
         "bodytext": "Webtwo ipsum kaboodle kosmix greplin zanga hipmunk imeem hipmunk kazaa, joukuu trulia jajah flickr diigo. Airbnb groupon flickr chegg eduvant joyent doostang, ebay tivo zlio reddit. Zillow kippt convore joost rovio tumblr, plaxo scribd flickr. Blippy tumblr blyve vuvox, zynga. Qeyno mzinga joyent twones mzinga jajah, yuntaa sifteo grockit zimbra kaboodle dopplr, knewton ebay. Kaboodle dropio edmodo loopt kosmix, wesabe akismet shopify.",
     }
