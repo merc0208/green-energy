@@ -1,0 +1,302 @@
+/*
+Font Swatch:
+font-family: 'Inter', sans-serif;
+font-family: 'Pridi', serif;
+
+Color Swatch:
+#224535
+#BBE06C
+#F8FFEA
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Pridi&display=swap');
+
+.wrapper{
+    box-sizing: border-box;
+	max-width: 60rem;
+	width:100%;
+    height: 100%;
+	background-color: #F8FFEA;
+	margin-left: auto;
+	margin-right: auto;
+    overflow: hidden;
+}
+body{
+	background-color:#F8FFEA;
+}
+header
+{
+    background-image: url('../img/foquito.jpg');
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    font-family: 'Pridi', serif;
+    color:#BBE06C;
+    font-size: 3rem;
+    text-align: left;
+    padding-left: 2rem;
+    margin-bottom: 0rem;
+    text-shadow: 2px 2px 5px #224535;
+    line-height: 1.4;
+    
+}
+h2{
+    font-family: 'Pridi', serif;
+    color:#BBE06C;
+    background-color: #224535;
+    padding-left: 2rem;
+    margin-bottom: 0;
+}
+h3{
+    font-family: 'Inter', sans-serif;
+    color:#F8FFEA;
+    text-align: left;
+    padding-left: 2rem;
+    font-size: 0.9rem;
+    text-shadow: 2px 2px 5px #224535;
+    line-height: 1.4;
+}
+p{
+    color: #224535;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+}
+/*Nav Styles*/
+nav{
+    background-color: #224535;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+}
+p{
+    line-height: 1.4;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    padding: 1rem 2rem;
+    margin: 0;
+}
+li{
+    list-style: none; 
+    line-height: 1.4;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+}
+.nav-item{
+    padding: .5rem;
+    border-bottom: 2px solid  #BBE06C;
+    margin-right: 2rem;
+}
+.nav-item-f{
+    padding: .5rem;
+    margin-right: 2rem;
+}
+ul.main-nav{
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+ul#controls{
+    padding-left: 2rem;
+}
+a{
+    text-decoration: none;
+    color:#BBE06C;
+}
+.main-nav a:visited{
+    color: #BBE06C;;
+}
+.main-nav a:hover{
+    color:#F8FFEA;
+}
+.main-nav a:active{
+    color: #F8FFEA;
+}
+img{
+    width: auto;
+    max-width: 25rem;
+    height: auto;
+    padding: 1rem 2rem;
+}
+#dynamic-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*Icons Style*/
+#controls{
+    display: flex;
+    justify-content: flex-start;
+}
+.fa-water{
+    padding: .8rem;
+    font-size: 1.5rem;
+    color: #224535;
+}
+.fa-wind{
+    padding: .8rem;
+    font-size: 1.5rem;
+    color: #224535;
+}
+.fa-sun{
+    padding: .8rem;
+    font-size: 1.5rem;
+    color: #224535;
+}
+.fa-water:hover{
+    background-color: #224535;
+    color: #BBE06C;
+}
+.fa-wind:hover{
+    background-color: #224535;
+    color: #BBE06C;
+}
+.fa-sun:hover{
+    background-color: #224535;
+    color: #BBE06C;
+}
+#active-button{
+
+    background-color:#BBE06C;
+    color: #224535;
+    
+}
+/*Footer Styles*/
+
+footer{
+    background-color: #224535;
+    font-family: 'Inter', sans-serif;
+    margin-top: 2rem;
+}
+h5{
+    font-family: 'Pridi', serif;
+    color: #BBE06C;
+    text-align: left;
+    font-size: 1rem;
+    padding: 2rem;
+    margin: 0rem;
+}
+.social-icons{
+    font-size: 2rem;
+    margin: 0rem;    
+}
+ul.social-icons{
+    padding-left: 0rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.fa-facebook{
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1rem;
+}
+.fa-instagram{
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1rem;
+}
+.fa-twitter{
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1rem;
+}
+
+@media only screen and (min-width: 31rem){
+    h1{
+        text-align: left;
+        padding-left: 2rem;
+        font-size: 5rem;
+    }
+    h3{
+        text-align: left;
+        font-size: 1.5rem;
+        padding-left: 2rem;
+        margin-top: 0rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h5{
+        font-size: 1.7rem;
+    }
+    div#dynamic-content{
+        display: grid;
+		grid-template-columns: repeat(3, auto);;
+		grid-template-rows:repeat(3, auto);
+    }
+    h2{
+        grid-column: 1/3;
+		grid-row: 1/2;
+        font-size: 2rem; 
+        margin-bottom: 2rem;
+        padding-right: 100%;
+    }
+    p{
+        grid-column: 2/3;
+		grid-row: 2/3;
+        line-height: 1.6;
+        font-size: 1rem;  
+        padding-left: 0rem;  
+    }
+    img{
+        grid-column: 1/2;
+		grid-row: 2/3;
+        max-width: 75%;
+        height: auto;
+    }
+    li{
+        line-height: 1.6;
+        font-size: 1rem;
+    }
+    .main-nav{
+        display: flex;
+        justify-content:space-around;
+        font-size: 1.4rem;
+        align-items: left;
+        padding-left: 2rem;
+    }
+    .nav-item{
+        padding: 0rem;
+        border-bottom: 0px;
+        margin-right: 0rem;
+    }
+    .nav-item-f{
+        padding: 0rem;
+        border-bottom: 0px;
+        margin-right: 0rem;
+    }
+    h5{
+        text-align: left;
+        font-size: 1.5rem;
+    }
+    .p-footer{
+        font-size: 1rem;
+    }
+    .social-icons{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 3rem;
+    }
+    ul.social-icons{
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+    .fa-facebook{
+        font-size: 2rem;
+    }
+    .fa-twitter{
+        font-size: 2rem;
+    }
+    .fa-instagram{
+        font-size: 2rem;
+    }
+    .fa-sun{
+        font-size: 2rem;
+    }
+    .fa-wind{
+        font-size: 2rem;
+    }
+    .fa-water{
+        font-size: 2rem;
+    }
+}
